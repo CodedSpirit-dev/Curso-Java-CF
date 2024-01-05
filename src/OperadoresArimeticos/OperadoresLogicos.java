@@ -14,5 +14,14 @@ public class OperadoresLogicos {
 
         resultado = 5>=5 && true && 10 > 9;
         System.out.println(resultado);
+
+        resultado = false || false || false || true; //Basta con que solo un resultado sea verdadero para que toda la expresion lo sea
+        System.out.println(resultado);
+
+        resultado = (5 >= (2*3) || true) && (true && 10 > 5);
+        System.out.println(resultado);
+
+        System.out.println(!false);
+        //Si se emplea negacion se invierte el valor resultante
     }
 }
